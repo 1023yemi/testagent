@@ -1,0 +1,9 @@
+{
+  "handling charge": ["handling fee", "h/d fee", "handling"],
+  "documentation fee": ["doc fee", "documentation fee"],
+  "terminal handling charge": ["thc", "terminal handling"],
+  "trucking charge": ["trucking fee", "trucking charge"],
+  "customs clearance fee": ["customs fee", "customs clearance"],
+  "storage charge": ["storage fee", "storage charge"],
+  "freight charge": ["ocean freight", "freight fee", "freight charge"]
+}

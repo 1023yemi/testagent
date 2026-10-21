@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Generated processing output (may contain source-derived billing data)
+output/
+
+# Supplied billing samples may include business information; keep them local.
+data/
+
+# Windows pytest temporary directories
+pytest-cache-files-*/

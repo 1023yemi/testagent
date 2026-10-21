@@ -1,0 +1,10 @@
+[
+  {
+    "operation": "CREATE",
+    "document_info": {"document_type": "Debit Note", "reference_no": "DN-202609-001", "document_date": "2026-09-20", "bill_of_lading_no": null, "booking_no": null, "container_no": null},
+    "transaction_party": {"issuer": "Destination Agent", "recipient": "Origin Agent"},
+    "charge_details": {"raw_charge_item": "Handling Fee", "charge_item": "Handling Charge", "quantity": null, "unit_price": null, "amount": 30.0, "currency": "USD", "payment_term": "PP"},
+    "financial_attributes": {"accounting_entity": "Origin Agent", "posting_type": "AP"},
+    "audit_trail": {"source_files": ["seed"], "evidence": {}, "validations": [], "ai_reasoning": ["Sample existing bill"], "match_candidates": []}
+  }
+]

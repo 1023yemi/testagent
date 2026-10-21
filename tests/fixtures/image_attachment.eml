@@ -1,0 +1,17 @@
+From: sender@example.com
+To: receiver@example.com
+Subject: OCR attachment fixture
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary"
+
+--fixture-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Please process the attached bill.
+--fixture-boundary
+Content-Type: image/png
+Content-Disposition: attachment; filename="bill.png"
+Content-Transfer-Encoding: base64
+
+ZmFrZSBpbWFnZQ==
+--fixture-boundary--

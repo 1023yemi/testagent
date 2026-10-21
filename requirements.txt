@@ -1,0 +1,10 @@
+langchain-core>=0.3,<1.0
+langchain-openai>=0.2,<1.0
+pydantic>=2.8,<3.0
+requests>=2.31
+openpyxl>=3.1
+python-docx>=1.1
+pypdf>=4.2
+xlrd>=2.0
+olefile>=0.47
+pytest>=8.0
